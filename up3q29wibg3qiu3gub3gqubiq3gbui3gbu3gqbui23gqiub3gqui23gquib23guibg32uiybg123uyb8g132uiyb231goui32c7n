@@ -6527,3 +6527,193 @@ getgenv().Toggle = "v"--Must be lowercase
 getgenv().Intro = false
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NoUGotbannedlol/DaHubV3/main/Launch"))()
 end})
+
+Tab:AddButton({Name = "Popcorn Autobuy",
+Callback = function()
+ local LocalPlayer = game:GetService "Players".LocalPlayer
+        local k = game.Workspace.Ignored.Shop["[Popcorn] - $7"]
+        local savedsilencerpos = LocalPlayer.Character.HumanoidRootPart.Position
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = k.Head.CFrame + Vector3.new(0, 3, 0)
+        wait(0.5)
+        fireclickdetector(game.Workspace.Ignored.Shop["[Popcorn] - $7"].ClickDetector)
+        fireclickdetector(game.Workspace.Ignored.Shop["[Popcorn] - $7"].ClickDetector)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+end})
+
+Tab:AddButton({Name = "Donut Autobuy",
+Callback = function()
+        local LocalPlayer = game:GetService "Players".LocalPlayer
+        local k = game.Workspace.Ignored.Shop["[Donut] - $5"]
+        local savedsilencerpos = LocalPlayer.Character.HumanoidRootPart.Position
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = k.Head.CFrame + Vector3.new(0, 3, 0)
+        wait(0.5)
+        fireclickdetector(game.Workspace.Ignored.Shop["[Donut] - $5"].ClickDetector)
+        fireclickdetector(game.Workspace.Ignored.Shop["[Donut] - $5"].ClickDetector)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+end})
+
+Tab:AddButton({Name = "Lettuce Autobuy",
+Callback = function()
+        local LocalPlayer = game:GetService "Players".LocalPlayer
+        local k = game.Workspace.Ignored.Shop["[Lettuce] - $5"]
+        local savedsilencerpos = LocalPlayer.Character.HumanoidRootPart.Position
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = k.Head.CFrame + Vector3.new(0, 3, 0)
+        wait(0.5)
+        fireclickdetector(game.Workspace.Ignored.Shop["[Lettuce] - $5"].ClickDetector)
+        fireclickdetector(game.Workspace.Ignored.Shop["[Lettuce] - $5"].ClickDetector)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+end})
+
+Tab:AddButton({Name = "Hamburger Autobuy",
+Callback = function()
+       local LocalPlayer = game:GetService "Players".LocalPlayer
+        local k = game.Workspace.Ignored.Shop["[Hamburger] - $5"]
+        local savedsilencerpos = LocalPlayer.Character.HumanoidRootPart.Position
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = k.Head.CFrame + Vector3.new(0, 3, 0)
+        wait(0.5)
+        fireclickdetector(game.Workspace.Ignored.Shop["[Hamburger] - $5"].ClickDetector)
+        fireclickdetector(game.Workspace.Ignored.Shop["[Hamburger] - $5"].ClickDetector)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+end})
+
+Tab:AddButton({Name = "HotDog Autobuy",
+Callback = function()
+        local LocalPlayer = game:GetService "Players".LocalPlayer
+        local k = game.Workspace.Ignored.Shop["[HotDog] - $8"]
+        local savedsilencerpos = LocalPlayer.Character.HumanoidRootPart.Position
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = k.Head.CFrame + Vector3.new(0, 3, 0)
+        wait(0.5)
+        fireclickdetector(game.Workspace.Ignored.Shop["[HotDog] - $8"].ClickDetector)
+        fireclickdetector(game.Workspace.Ignored.Shop["[HotDog] - $8"].ClickDetector)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+end})
+
+Tab:AddButton({Name = "Taco Autobuy",
+Callback = function()
+       local LocalPlayer = game:GetService "Players".LocalPlayer
+        local k = game.Workspace.Ignored.Shop["[Taco] - $2"]
+        local savedsilencerpos = LocalPlayer.Character.HumanoidRootPart.Position
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = k.Head.CFrame + Vector3.new(0, 3, 0)
+        wait(0.5)
+        fireclickdetector(game.Workspace.Ignored.Shop["[Taco] - $2"].ClickDetector)
+        fireclickdetector(game.Workspace.Ignored.Shop["[Taco] - $2"].ClickDetector)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+end})
+
+Tab:AddButton({Name = "Chicken Autobuy",
+Callback = function()
+        local LocalPlayer = game:GetService "Players".LocalPlayer
+        local k = game.Workspace.Ignored.Shop["[Chicken] - $7"]
+        local savedsilencerpos = LocalPlayer.Character.HumanoidRootPart.Position
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = k.Head.CFrame + Vector3.new(0, 3, 0)
+        wait(0.5)
+        fireclickdetector(game.Workspace.Ignored.Shop["[Chicken] - $7"].ClickDetector)
+        fireclickdetector(game.Workspace.Ignored.Shop["[Chicken] - $7"].ClickDetector)
+
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+end})
+
+Tab:AddButton({Name = "Pizza Autobuy",
+Callback = function()
+        local savedsilencerpos = LocalPlayer.Character.HumanoidRootPart.Position
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = k.Head.CFrame + Vector3.new(0, 3, 0)
+        wait(0.5)
+        fireclickdetector(game.Workspace.Ignored.Shop["[Pizza] - $5"].ClickDetector)
+        fireclickdetector(game.Workspace.Ignored.Shop["[Pizza] - $5"].ClickDetector)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+end})
+
+Tab:AddButton({Name = "Double Barrel AutoBuy",
+Callback = function()
+        LocalPlayer = game:GetService "Players".LocalPlayer
+        local k = game.Workspace.Ignored.Shop["[Double-Barrel SG] - $1400"]
+        local savedsilencerpos = LocalPlayer.Character.HumanoidRootPart.Position
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = k.Head.CFrame + Vector3.new(0, 3, 0)
+        wait(0.5)
+        fireclickdetector(game.Workspace.Ignored.Shop["[Double-Barrel SG] - $1400"].ClickDetector)
+        fireclickdetector(game.Workspace.Ignored.Shop["[Double-Barrel SG] - $1400"].ClickDetector)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+end})
+
+Tab:AddButton({Name = "Revolver Autobuy",
+Callback = function()
+        LocalPlayer = game:GetService "Players".LocalPlayer
+        local gunName = "[Revolver] - $1300"
+        local k = game.Workspace.Ignored.Shop[gunName]
+        local savedsilencerpos = LocalPlayer.Character.HumanoidRootPart.Position
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = k.Head.CFrame + Vector3.new(0, 3, 0)
+        wait(0.5)
+        fireclickdetector(game.Workspace.Ignored.Shop[gunName].ClickDetector)
+        fireclickdetector(game.Workspace.Ignored.Shop[gunName].ClickDetector)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+end})
+
+Tab:AddButton({Name = "AK47 Autobuy",
+Callback = function()
+        LocalPlayer = game:GetService "Players".LocalPlayer
+        local k = game.Workspace.Ignored.Shop["[AK47] - $2250"]
+        local savedsilencerpos = LocalPlayer.Character.HumanoidRootPart.Position
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = k.Head.CFrame + Vector3.new(0, 3, 0)
+        wait(0.5)
+        fireclickdetector(game.Workspace.Ignored.Shop["[AK47] - $2250"].ClickDetector)
+        fireclickdetector(game.Workspace.Ignored.Shop["[AK47] - $2250"].ClickDetector)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+end})
+
+Tab:AddButton({Name = "Revolver Ammmo Autobuy",
+Callback = function()
+    local LocalPlayer = game:GetService "Players".LocalPlayer
+        local gunName = "12 [Revolver Ammo] - $75"
+        local k = game.Workspace.Ignored.Shop[gunName]
+        local savedsilencerpos = LocalPlayer.Character.HumanoidRootPart.Position
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = k.Head.CFrame + Vector3.new(0, 3, 0)
+        wait(0.5)
+        fireclickdetector(game.Workspace.Ignored.Shop[gunName].ClickDetector)
+        fireclickdetector(game.Workspace.Ignored.Shop[gunName].ClickDetector)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+end})
+
+Tab:AddButton({Name = "Double Barrel Autobuy",
+Callback = function()
+        local LocalPlayer = game:GetService "Players".LocalPlayer
+        local k = game.Workspace.Ignored.Shop["18 [Double-Barrel SG Ammo] - $60"]
+        local savedsilencerpos = LocalPlayer.Character.HumanoidRootPart.Position
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = k.Head.CFrame + Vector3.new(0, 3, 0)
+        wait(0.5)
+        fireclickdetector(game.Workspace.Ignored.Shop["18 [Double-Barrel SG Ammo] - $60"].ClickDetector)
+        fireclickdetector(game.Workspace.Ignored.Shop["18 [Double-Barrel SG Ammo] - $60"].ClickDetector)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+end})
+
+Tab:AddButton({Name = "AK47 Ammo Autobuy",
+Callback = function()
+function()
+            LocalPlayer = game:GetService "Players".LocalPlayer
+                local k = game.Workspace.Ignored.Shop["90 [AK47 Ammo] - $80"]
+                local savedsilencerpos = LocalPlayer.Character.HumanoidRootPart.Position
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = k.Head.CFrame + Vector3.new(0, 3, 0)
+                wait(0.5)
+                fireclickdetector(game.Workspace.Ignored.Shop["90 [AK47 Ammo] - $80"].ClickDetector)
+                fireclickdetector(game.Workspace.Ignored.Shop["90 [AK47 Ammo] - $80"].ClickDetector)
+                LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+end})
+
+
+Tab:AddButton({Name = "",
+Callback = function()
+
+end})

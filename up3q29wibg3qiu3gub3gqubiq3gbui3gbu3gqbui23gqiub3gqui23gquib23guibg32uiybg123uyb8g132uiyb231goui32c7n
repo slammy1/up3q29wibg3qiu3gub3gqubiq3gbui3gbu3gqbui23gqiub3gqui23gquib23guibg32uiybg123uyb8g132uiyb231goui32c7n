@@ -456,22 +456,6 @@ Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/slammy1/moongod/main/moongod" ))()
 end})
 
-Tab:AddButton({Name = "No Point",
-Callback = function()
-local Url = "https://scripts.luawl.com/oxx/nopoint.lua"
-
-local Success, Script = pcall(function()
-    return game:HttpGet(Url);
-end)
-
-if Success then
-    _G.wl_key = "bf9bbd9538be063c31fea375ae754fb50f376524"
-    loadstring(Script)();
-else
-    game.Players.LocalPlayer:Kick("")
-end
-end})
-
 Tab:AddButton({Name = "Hitbox",
 Callback = function()
 local CC = game:GetService"Workspace".CurrentCamera

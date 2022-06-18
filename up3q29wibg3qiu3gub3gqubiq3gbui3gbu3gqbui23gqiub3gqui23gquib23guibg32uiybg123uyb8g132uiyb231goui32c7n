@@ -688,7 +688,7 @@ Callback = function()
 
         Smoothing = {
         Enabled = true,
-        Amount = 0.010
+        Amount = 0.025
     },
  }
 }
@@ -1222,6 +1222,22 @@ local L_412_ = game.Players.LocalPlayer.Character
 	local L_413_ = L_412_:WaitForChild("Head")
 	local L_414_ = L_413_:WaitForChild("face")
 	L_414_.Texture = "rbxassetid://127959433"
+end})
+
+Tab:AddButton({Name = "Yum!",
+Callback = function()
+    local L_415_ = game.Players.LocalPlayer.Character
+	local L_416_ = L_415_:WaitForChild("Head")
+	local L_417_ = L_416_:WaitForChild("face")
+	L_417_.Texture = "rbxassetid://26018945"
+end})
+
+Tab:AddButton({Name = "Super Super Happy Face",
+Callback = function()
+    local L_415_ = game.Players.LocalPlayer.Character
+	local L_416_ = L_415_:WaitForChild("Head")
+	local L_417_ = L_416_:WaitForChild("face")
+	L_417_.Texture = "rbxassetid://494290547"
 end})
 
 Tab:AddButton({Name = "Korblox FE",

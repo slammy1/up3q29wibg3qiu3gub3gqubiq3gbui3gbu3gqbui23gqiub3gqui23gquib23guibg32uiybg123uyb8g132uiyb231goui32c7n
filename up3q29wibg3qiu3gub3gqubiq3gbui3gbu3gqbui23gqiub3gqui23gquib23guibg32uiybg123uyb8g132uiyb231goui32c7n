@@ -1240,6 +1240,46 @@ Callback = function()
 	L_417_.Texture = "rbxassetid://494290547"
 end})
 
+Tab:AddButton({Name = "Prankster",
+Callback = function()
+    local L_415_ = game.Players.LocalPlayer.Character
+	local L_416_ = L_415_:WaitForChild("Head")
+	local L_417_ = L_416_:WaitForChild("face")
+	L_417_.Texture = "rbxassetid://20052028"
+end})
+
+Tab:AddButton({Name = "Troublemaker",
+Callback = function()
+    local L_415_ = game.Players.LocalPlayer.Character
+	local L_416_ = L_415_:WaitForChild("Head")
+	local L_417_ = L_416_:WaitForChild("face")
+	L_417_.Texture = "rbxassetid://22920500"
+end})
+
+Tab:AddButton({Name = "Meanie",
+Callback = function()
+    local L_415_ = game.Players.LocalPlayer.Character
+	local L_416_ = L_415_:WaitForChild("Head")
+	local L_417_ = L_416_:WaitForChild("face")
+	L_417_.Texture = "rbxassetid://508490451"
+end})
+
+Tab:AddButton({Name = "StitchFace",
+Callback = function()
+    local L_415_ = game.Players.LocalPlayer.Character
+	local L_416_ = L_415_:WaitForChild("Head")
+	local L_417_ = L_416_:WaitForChild("face")
+	L_417_.Texture = "rbxassetid://8329438"
+end})
+
+Tab:AddButton({Name = "Madness Face",
+Callback = function()
+    local L_415_ = game.Players.LocalPlayer.Character
+	local L_416_ = L_415_:WaitForChild("Head")
+	local L_417_ = L_416_:WaitForChild("face")
+	L_417_.Texture = "rbxassetid://129900258"
+end})
+
 Tab:AddButton({Name = "Korblox FE",
 Callback = function()
 	game.Players.LocalPlayer.Character.RightUpperLeg:Destroy()

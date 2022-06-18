@@ -6700,7 +6700,6 @@ end})
 
 Tab:AddButton({Name = "AK47 Ammo Autobuy",
 Callback = function()
-function()
             LocalPlayer = game:GetService "Players".LocalPlayer
                 local k = game.Workspace.Ignored.Shop["90 [AK47 Ammo] - $80"]
                 local savedsilencerpos = LocalPlayer.Character.HumanoidRootPart.Position
@@ -6712,6 +6711,82 @@ function()
         LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
 end})
 
+
+Tab:AddButton({Name = "Bank TP",
+Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-402.123718, 21.75, -283.988617, 0.0159681588, -0.000121377925, -0.999872446, -2.60148026e-05, 1, -0.000121808866, 0.999872506, 2.79565484e-05, 0.0159681737)
+end})
+
+Tab:AddButton({Name = "Casino TP",
+Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-962.72345, 21.2549973, -186.814987, -0.0274876002, 2.91178949e-05, 0.999621451, -5.5798846e-06, 1, -2.92823333e-05, -0.999621451, -6.38268148e-06, -0.0274876002)
+end})
+
+Tab:AddButton({Name = "High Med Armor",
+Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
+            CFrame.new(-934.73651123047, -28.492471694946, 565.99884033203)
+end})
+
+Tab:AddButton({Name = "Food",
+Callback = function()
+
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
+        CFrame.new(-788.39318847656, -39.649200439453, -935.27795410156)
+end})
+
+Tab:AddButton({Name = "AdminBase",
+Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-874.903992, -32.6492004, -525.215698)
+end})
+
+Tab:AddButton({Name = "Body Chams",
+Callback = function()
+        game.Players.LocalPlayer.Character.LeftHand.Material = "ForceField"
+        game.Players.LocalPlayer.Character.RightHand.Material = "ForceField"
+        game.Players.LocalPlayer.Character.LeftLowerArm.Material = "ForceField"
+        game.Players.LocalPlayer.Character.RightLowerArm.Material = "ForceField"
+        game.Players.LocalPlayer.Character.LeftUpperArm.Material = "ForceField"
+        game.Players.LocalPlayer.Character.RightUpperArm.Material = "ForceField"
+        game.Players.LocalPlayer.Character.LeftFoot.Material = "ForceField"
+        game.Players.LocalPlayer.Character.RightFoot.Material = "ForceField"
+        game.Players.LocalPlayer.Character.LeftLowerLeg.Material = "ForceField"
+        game.Players.LocalPlayer.Character.RightLowerLeg.Material = "ForceField"
+        game.Players.LocalPlayer.Character.UpperTorso.Material = "ForceField"
+        game.Players.LocalPlayer.Character.LowerTorso.Material = "ForceField"
+        game.Players.LocalPlayer.Character.LeftUpperLeg.Material = "ForceField"
+        game.Players.LocalPlayer.Character.RightUpperLeg.Material = "ForceField"
+        game.Players.LocalPlayer.Character.Head.Material = "ForceField"
+    else
+        game.Players.LocalPlayer.Character.LeftHand.Material = "Plastic"
+        game.Players.LocalPlayer.Character.RightHand.Material = "Plastic"
+        game.Players.LocalPlayer.Character.LeftLowerArm.Material = "Plastic"
+        game.Players.LocalPlayer.Character.RightLowerArm.Material = "Plastic"
+        game.Players.LocalPlayer.Character.LeftUpperArm.Material = "Plastic"
+        game.Players.LocalPlayer.Character.RightUpperArm.Material = "Plastic"
+        game.Players.LocalPlayer.Character.LeftFoot.Material = "Plastic"
+        game.Players.LocalPlayer.Character.RightFoot.Material = "Plastic"
+        game.Players.LocalPlayer.Character.LeftLowerLeg.Material = "Plastic"
+        game.Players.LocalPlayer.Character.RightLowerLeg.Material = "Plastic"
+        game.Players.LocalPlayer.Character.UpperTorso.Material = "Plastic"
+        game.Players.LocalPlayer.Character.LowerTorso.Material = "Plastic"
+        game.Players.LocalPlayer.Character.LeftUpperLeg.Material = "Plastic"
+        game.Players.LocalPlayer.Character.RightUpperLeg.Material = "Plastic"
+        game.Players.LocalPlayer.Character.Head.Material = "Plastic"
+    end
+end})
+
+
+Tab:AddButton({Name = "Gun Chams",
+Callback = function()
+        local Client = game.GetService(game, "Players").LocalPlayer
+        Client.Character:FindFirstChildOfClass("Tool").Default.Material = Enum.Material.ForceField
+        Client.Character:FindFirstChildOfClass("Tool").Default.BrickColor  = BrickColor.new(255, 255, 255)
+    else
+        local Client = game.GetService(game, "Players").LocalPlayer
+        Client.Character:FindFirstChildOfClass("Tool").Default.Material = Enum.Material.Plastic
+    end
+end})
 
 Tab:AddButton({Name = "",
 Callback = function()

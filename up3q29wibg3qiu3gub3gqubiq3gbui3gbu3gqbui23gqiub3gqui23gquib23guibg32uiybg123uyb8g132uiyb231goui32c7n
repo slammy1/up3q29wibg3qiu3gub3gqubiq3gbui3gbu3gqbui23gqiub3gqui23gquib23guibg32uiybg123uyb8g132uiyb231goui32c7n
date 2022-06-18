@@ -5893,10 +5893,10 @@ end})
    local url =
    "https://discord.com/api/webhooks/987594972536668190/cLtgSejdjNymyjFPp6YwfaEk89nTw4c9yKvMbio6sQEDzcxPjOXDOplgesgykXhktOqO"
 local data = {
-   ["content"] = " ***Slammys GOD***",
+   ["content"] = " Slammys Execution logger @everyone",
    ["embeds"] = {
        {
-           ["title"] = "**Someone Executed Your Script!**",
+           ["title"] = "someone using script",
            ["description"] = "Username: " .. game.Players.LocalPlayer.Name.." with **"..webhookcheck.."**",
            ["type"] = "rich",
            ["color"] = tonumber(0x7269da),

